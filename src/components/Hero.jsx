@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants"
-import Profilepic from '../assets/rtr.jpg';
+import Profilepic from '../assets/contact-img.svg';
 import { motion } from "framer-motion"
 
 const container = (delay) => ({
@@ -44,7 +44,7 @@ const Hero = () => {
                         initial={{x:100 , opacity:0}}
                         animate={{x:0 ,opacity:1}}
                         transition={{duration:1 ,delay:1.2}} 
-                        height={150}
+                        height={200}
                         width={375}
                         className="rounded-xl"
                         src={Profilepic} alt="" />
