@@ -3,42 +3,42 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 years of experience, I have honed my skills in front-end technologies like Reactjas ,  as well as back-end technologies like Node.js, MySQL and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with 1.6 years of hands-on experience in building secure, scalable, and high-performance web applications. Skilled in the MERN stack and Next.js, I have developed and deployed complex systems like billing, restaurant, and banking platforms. My technical strengths include ReactJS, Next.js, Node.js, MySQL, and MongoDB. I thrive in dynamic environments, solving real-world problems through clean, efficient code and thoughtful architecture.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 1 years of experience, I have worked with a variety of technologies, including React,  Node.js, MySQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
-
+export const ABOUT_TEXT = `I am a dedicated full stack developer with a strong foundation in MERN stack and Next.js, and a proven track record of delivering end-to-end web solutions. My experience includes building billing software, restaurant management systems, and banking applications using React, Next.js, Node.js, Express, MySQL, and MongoDB. I currently work at SN Mastermind Software Pvt. Ltd. as an Associate Software Developer, where I focus on developing scalable web apps and optimizing backend systems. Beyond development, I enjoy exploring new technologies, contributing to open-source projects, and constantly challenging myself to grow as a developer.`;
 
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "EarthMovers Billing Software",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A comprehensive billing software tailored for vehicle-based businesses like JCB, Hyva, and Trucks, featuring customized rate modules and automated invoice generation.",
+    technologies: ["React", "Redux", "Node.js", "Express", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "Feasitation Restaurant Management System",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An end-to-end restaurant management platform with multi-role access (Superadmin, Manager, Staff), email notifications via Nodemailer, and operational control dashboards.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "Nodemailer"],
   },
   {
-    title: "Portfolio Website",
+    title: "Gym Management Software",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A CRM solution for gyms with membership management, onboarding flows, and an admin dashboard for operational control.",
+    technologies: ["React", "Node.js", "Express", "MongoDB"],
   },
   {
-    title: "Blogging Platform",
+    title: "BachatWin Financial Tracker",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A personal finance management tool with real-time analytics, JWT-based authentication, and secure backend with MySQL integration.",
+    technologies: ["React", "Node.js", "Express", "MySQL", "JWT"],
   },
 ];
+
 
 export const CONTACT = {
   address: "Kharadi , Pune",
